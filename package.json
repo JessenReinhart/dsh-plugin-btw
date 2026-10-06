@@ -1,0 +1,24 @@
+{
+  "name": "dsh-plugin-btw",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness plugin providing the /btw side-question slash command (Claude Code, OMP, and JCode style)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "cordis",
+    "btw",
+    "slash-command",
+    "subagent"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-commands": "^0.1.5-rc.2",
+    "@deepseek-ai/dsh-subagent": "^0.1.5-rc.2"
+  }
+}
