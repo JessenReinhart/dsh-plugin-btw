@@ -1,0 +1,8 @@
+- insert:
+    - id: dsh-plugin-btw
+      name: dsh-plugin-btw
+      config:
+        enabled: true
+        timeoutMs: 60000
+        allowRoots: []
+        allowMutate: false
